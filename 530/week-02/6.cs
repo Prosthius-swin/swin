@@ -13,9 +13,9 @@ public class Program
         int counter = 1;
 
         Random rnd = new Random();
-        secretNumber = rnd.Next(1, 1000);
+        secretNumber = rnd.Next(1, 1001);
         Console.WriteLine(secretNumber);
-        
+
         Console.WriteLine("Guess a number");
         guess = Console.ReadLine();
 
