@@ -2,7 +2,7 @@ using System;
 					
 public class Program
 {
-	public static void Main()
+	public static async void Main()
 	{
         //Set a secret number to 653.  Then program will then loop, where each loop will ask the user to enter what they think a secret integer is. 
         //If they get it right, print "Correct", otherwise print "Wrong, counter value is ".  Give the user 10 chances to guess.   
@@ -12,13 +12,16 @@ public class Program
         string guess = "";
         int counter = 1;
 
+
+
         Console.WriteLine("Guess a number");
         guess = Console.ReadLine();
 
-        while(counter <= 10 && (!String.Equals(guess, secretNumber))) {
+        //while(counter <= 10 && (!String.Equals(guess, secretNumber))) {
+        for(int i = 0; i < 10; i++) {
             if (!String.Equals(guess, secretNumber)) {
             Console.WriteLine("Wrong, counter value is " + counter);
-            counter = (counter + 1);
+            counter++;
             Console.WriteLine("Guess a number");
             guess = Console.ReadLine();
                 } 
