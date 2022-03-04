@@ -8,12 +8,14 @@ public class Program
         //If they get it right, print "Correct", otherwise print "Wrong, counter value is ".  Give the user 10 chances to guess.   
         //Hint: You will need an if statement inside the loop.  Bonus: Make the secret number randomly generate between 1 and 1000 each time the program is run.  
 
-        string secretNumber = "653"; 
+        int secretNumber = 653; 
         string guess = "";
         int counter = 1;
 
-
-
+        Random rnd = new Random();
+        secretNumber = rnd.Next(1, 1000);
+        Console.WriteLine(secretNumber);
+        
         Console.WriteLine("Guess a number");
         guess = Console.ReadLine();
 
