@@ -11,6 +11,7 @@ public class Program
         int secretNumber; 
         string guess = "";
         int counter = 9;
+        string attempts = "attempts";
 
         Random rnd = new Random();
         secretNumber = rnd.Next(1, 1001);
@@ -22,11 +23,15 @@ public class Program
         while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
         //for(int i = 0; i < 9; i++) {
             if (!String.Equals(guess, secretNumber.ToString())) {
-            Console.WriteLine("Wrong, you have " + counter + " attempt(s) left.");
+            Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
             Console.WriteLine("Guess a number.");
             guess = Console.ReadLine();
             counter--;
-                } 
+                } if (String.Equals(counter.ToString() ,"1")) {
+                    attempts = "attempt";
+                } else {
+                    attempts = "attempts";
+                }
             } if(counter < 1) {
                 Console.WriteLine("You have run out of attempts.");
                 } else if(String.Equals(guess, secretNumber.ToString())) {
