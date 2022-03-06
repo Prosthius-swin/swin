@@ -4,7 +4,7 @@
  
 int secretNumber; 
 string guess = "";
-int counter = 9;
+int counter = 10;
 string attempts = "attempts";
 
 Random rnd = new Random();
@@ -16,23 +16,21 @@ guess = Console.ReadLine();
 
 while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
     if (!String.Equals(guess, secretNumber.ToString())) {
-        /*while(guess == "") {
-            Console.WriteLine("Counter is " + counter);
+        while(guess == "") {
             Console.WriteLine("Please enter a number.");
             guess = Console.ReadLine();
-            }*/ Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
+            } Console.WriteLine("You have " + counter + " " + attempts + " left.");
             Console.WriteLine("Guess a number.");
             guess = Console.ReadLine();
             counter--;
+            Console.WriteLine(counter);
             } if (String.Equals(counter.ToString() ,"1")) {
                 attempts = "attempt";
             } else {
                 attempts = "attempts";
                 }
-            } if(counter < 1) {
-                Console.WriteLine("You have run out of attempts.");
-                } else if(String.Equals(guess, secretNumber.ToString())) {
-                    Console.WriteLine("Correct!");
+            } if(String.Equals(guess, secretNumber.ToString())) {
+                Console.WriteLine("Correct!");
                 } else {
-                    Console.WriteLine("Something went wrong.");
+                    Console.WriteLine("You have run out of attempts.");
                     }
