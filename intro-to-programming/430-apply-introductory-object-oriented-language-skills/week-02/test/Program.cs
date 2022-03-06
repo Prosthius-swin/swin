@@ -15,7 +15,6 @@
         guess = Console.ReadLine();
 
         while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
-        //for(int i = 0; i < 9; i++) {
             if (!String.Equals(guess, secretNumber.ToString())) {
                 Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
                 Console.WriteLine("Guess a number.");
