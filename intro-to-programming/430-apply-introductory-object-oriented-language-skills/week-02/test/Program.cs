@@ -11,7 +11,7 @@
         secretNumber = rnd.Next(1, 1001);
         Console.WriteLine("The secret number is " + secretNumber + ".");
 
-        Console.WriteLine("Guess a number");
+        Console.WriteLine("Guess a number.");
         guess = Console.ReadLine();
 
         while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
