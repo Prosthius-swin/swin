@@ -1,10 +1,4 @@
-﻿/*using System;
-					
-public class Program
-{
-	public static async void Main()
-	{*/
-        //Set a secret number to 653.  Then program will then loop, where each loop will ask the user to enter what they think a secret integer is. 
+﻿        //Set a secret number to 653.  Then program will then loop, where each loop will ask the user to enter what they think a secret integer is. 
         //If they get it right, print "Correct", otherwise print "Wrong, counter value is ".  Give the user 10 chances to guess.   
         //Hint: You will need an if statement inside the loop.  Bonus: Make the secret number randomly generate between 1 and 1000 each time the program is run.  
   
@@ -39,5 +33,3 @@ public class Program
                 } else {
                     Console.WriteLine("Something went wrong.");
                 }
-            //}
-        //}
