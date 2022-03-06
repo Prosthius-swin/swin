@@ -23,10 +23,10 @@ public class Program
         while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
         //for(int i = 0; i < 9; i++) {
             if (!String.Equals(guess, secretNumber.ToString())) {
-            Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
-            Console.WriteLine("Guess a number.");
-            guess = Console.ReadLine();
-            counter--;
+                Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
+                Console.WriteLine("Guess a number.");
+                guess = Console.ReadLine();
+                counter--;
                 } if (String.Equals(counter.ToString() ,"1")) {
                     attempts = "attempt";
                 } else {
@@ -35,7 +35,7 @@ public class Program
             } if(counter < 1) {
                 Console.WriteLine("You have run out of attempts.");
                 } else if(String.Equals(guess, secretNumber.ToString())) {
-                Console.WriteLine("Correct!");
+                    Console.WriteLine("Correct!");
                 } else {
                     Console.WriteLine("Something went wrong.");
                 } 
