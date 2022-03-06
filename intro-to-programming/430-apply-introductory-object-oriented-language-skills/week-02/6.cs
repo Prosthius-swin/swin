@@ -8,9 +8,9 @@ public class Program
         //If they get it right, print "Correct", otherwise print "Wrong, counter value is ".  Give the user 10 chances to guess.   
         //Hint: You will need an if statement inside the loop.  Bonus: Make the secret number randomly generate between 1 and 1000 each time the program is run.  
 
-        int secretNumber = 653; 
+        int secretNumber; 
         string guess = "";
-        int counter = 1;
+        int counter = 9;
 
         Random rnd = new Random();
         secretNumber = rnd.Next(1, 1001);
@@ -19,18 +19,20 @@ public class Program
         Console.WriteLine("Guess a number");
         guess = Console.ReadLine();
 
-        //while(counter <= 10 && (!String.Equals(guess, secretNumber))) {
-        for(int i = 0; i < 10; i++) {
-            if (!String.Equals(guess, secretNumber)) {
-            Console.WriteLine("Wrong, counter value is " + counter);
-            counter++;
-            Console.WriteLine("Guess a number");
+        while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
+        //for(int i = 0; i < 9; i++) {
+            if (!String.Equals(guess, secretNumber.ToString())) {
+            Console.WriteLine("Wrong, you have " + counter + " attempt(s) left.");
+            Console.WriteLine("Guess a number.");
             guess = Console.ReadLine();
+            counter--;
                 } 
-            } if(counter > 10) {
-                Console.WriteLine("You have run out of attempts");
-            } else if(String.Equals(guess, secretNumber)) {
+            } if(counter < 1) {
+                Console.WriteLine("You have run out of attempts.");
+                } else if(String.Equals(guess, secretNumber.ToString())) {
                 Console.WriteLine("Correct!");
+                } else {
+                    Console.WriteLine("Something went wrong.");
                 } 
             }
         }
