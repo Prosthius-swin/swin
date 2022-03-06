@@ -10,8 +10,7 @@ public class Program
  
         int secretNumber; 
         string guess = "";
-        int counter = 9;
-        string attempts = "attempts";
+        int counter = 1;
 
         Random rnd = new Random();
         secretNumber = rnd.Next(1, 1001);
@@ -20,27 +19,17 @@ public class Program
         Console.WriteLine("Guess a number.");
         guess = Console.ReadLine();
 
-        while(counter > 0 && (!String.Equals(guess, secretNumber.ToString()))) {
+        while(counter < 10 && (!String.Equals(guess, secretNumber.ToString()))) {
             if (!String.Equals(guess, secretNumber.ToString())) {
-                /*while(guess == "") {
-                    Console.WriteLine("Counter is " + counter);
-                    Console.WriteLine("Please enter a number.");
-                    guess = Console.ReadLine();
-                    }*/ Console.WriteLine("Wrong, you have " + counter + " " + attempts + " left.");
-                    Console.WriteLine("Guess a number.");
-                    guess = Console.ReadLine();
-                    counter--;
-                    } if (String.Equals(counter.ToString() ,"1")) {
-                        attempts = "attempt";
-                    } else {
-                        attempts = "attempts";
-                        }
-                    } if(counter < 1) {
-                        Console.WriteLine("You have run out of attempts.");
-                        } else if(String.Equals(guess, secretNumber.ToString())) {
-                            Console.WriteLine("Correct!");
-                        } else {
-                            Console.WriteLine("Something went wrong.");
-                            } 
-                        }
-                    }
+                Console.WriteLine("Wrong, counter value is " + counter);
+                Console.WriteLine("Guess a number.");
+                guess = Console.ReadLine();
+                counter++;
+                }
+            } if(String.Equals(guess, secretNumber.ToString())) {
+                Console.WriteLine("Correct!");
+            } else {
+                Console.WriteLine("Something went wrong.");
+                } 
+            }
+        }
