@@ -13,6 +13,6 @@ public class Program
 		guess = Console.ReadLine();
             } if (guess == "5") {
 		Console.WriteLine("Correct!");
-			} 
+		} 
 	}
 }
