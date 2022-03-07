@@ -18,13 +18,13 @@ public class Program
                 Console.WriteLine(counter);
                 counter = counter + 1;
                 }
-        } else if (numberInt < 0) {
-            while(counter >= numberInt) {
-                Console.WriteLine(counter);
-                counter = counter - 1;
+            } else if (numberInt < 0) {
+                while(counter >= numberInt) {
+                    Console.WriteLine(counter);
+                    counter = counter - 1;
+                    }
+                } else {
+                    Console.WriteLine(numberInt);
                 }
-            } else {
-                Console.WriteLine(numberInt);
-            }
-	}
-}
+	        }
+        }
