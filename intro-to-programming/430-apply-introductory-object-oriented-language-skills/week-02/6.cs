@@ -29,7 +29,7 @@ public class Program
             } if(String.Equals(guess, secretNumber.ToString())) {
                 Console.WriteLine("Correct!");
             } else {
-                Console.WriteLine("Something went wrong.");
+                Console.WriteLine("You have run out of attempts.");
                 } 
             }
         }
