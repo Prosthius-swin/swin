@@ -12,7 +12,7 @@ public class Program
         Console.WriteLine("Guess the number");
 		guess = Console.ReadLine();
             } if (guess == "5") {
-		Console.WriteLine("You guessed the number!");
+		Console.WriteLine("Correct!");
 			} 
 	}
 }
