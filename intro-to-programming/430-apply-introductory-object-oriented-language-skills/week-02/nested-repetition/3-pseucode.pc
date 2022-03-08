@@ -1,0 +1,22 @@
+//The user is able to enter the amount of starting x's
+/*
+xxxx
+xxx
+xx
+x
+*/
+
+counter = 0
+repetitions
+x = x
+
+GET repetitions
+
+WHILE (repetitions > 1) {
+    WHILE (counter < repetitions) {
+        counter++
+        PRINT x same line
+    } repetitions-- 
+    new line
+    counter = 0
+    }
