@@ -6,41 +6,15 @@ xx
 x
 */
 
-//FOR loops
+counter = 0
+repetitions = 5
 x = x
 
-FOR (4) {
-    PRINT(x)
-} FOR (3) {
-    PRINT(x)
-} FOR (2) {
-    PRINT(x)
-} FOR (1) {
-    PRINT(x)
-}
-
-
-//WHILE loops
-counter = 0
-x = x
-
-WHILE (counter < 4) {
-    counter++
-    PRINT x same line
-} new line
-counter = 0
-WHILE (counter < 3) {
-    counter++
-    PRINT x same line
-} new line
-counter = 0
-WHILE (counter < 2) {
-    counter++
-    PRINT x same line
-} new line
-counter = 0
-WHILE (counter < 1) {
-    counter++
-    PRINT x same line
-} new line
-counter = 0
+WHILE (repetitions > 1) {
+    WHILE (counter < repetitions) {
+        counter++
+        PRINT x same line
+    } repetitions-- 
+    new line
+    counter = 0
+    }

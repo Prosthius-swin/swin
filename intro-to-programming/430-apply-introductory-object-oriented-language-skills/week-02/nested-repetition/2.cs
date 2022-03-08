@@ -6,44 +6,15 @@ xx
 x
 */
 
-//Completed with for loops
-char x = 'x';
-
-for (int i = 0; i < 4; i++) {
-    Console.Write(x);
-} Console.WriteLine();
-for (int i = 0; i < 3; i++) {
-    Console.Write(x);
-} Console.WriteLine();
-for (int i = 0; i < 2; i++) {
-    Console.Write(x);
-} Console.WriteLine();
-for (int i = 0; i < 1; i++) {
-    Console.Write(x);
-}
-
-
-//Completed with while loops
 int counter = 0;
+int repetitions = 5;
 char x = 'x';
 
-while(counter < 4) {
-    counter++;
-    Console.Write(x);    
-} Console.WriteLine();
-counter = 0;
-while(counter < 3) {
-    counter++;
-    Console.Write(x);    
-} Console.WriteLine();
-counter = 0;
-while(counter < 2) {
-    counter++;
-    Console.Write(x);    
-} Console.WriteLine();
-counter = 0;
-while(counter < 1) {
-    counter++;
-    Console.Write(x);    
-} Console.WriteLine();
-counter = 0;
+while (repetitions > 0) {
+    while (counter < repetitions) {
+        counter++;
+        Console.Write(x);
+    } repetitions--;
+    Console.WriteLine();
+    counter = 0;
+}
