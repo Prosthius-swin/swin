@@ -1,0 +1,8 @@
+//1. A program receives a user's name and prints it 10 times on the same line. This process happens 10 times.
+GET name
+counter = 0
+
+WHILE (counter < 10) {
+    counter++
+    PRINT name
+} 

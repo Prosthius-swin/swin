@@ -1,0 +1,9 @@
+//A program receives a user's name and prints it for the amount of times that the user specifies.
+GET name
+GET counter2
+counter = 0
+
+WHILE (counter < counter2) {
+    counter++
+    PRINT name
+}
