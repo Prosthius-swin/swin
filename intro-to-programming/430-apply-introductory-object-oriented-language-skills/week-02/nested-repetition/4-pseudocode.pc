@@ -1,0 +1,21 @@
+//Create a C# program that creates the below output and copy and paste your code as the answer.
+/*
+x
+xx
+xxx
+xxxx
+xxxxx
+*/
+
+counter = 0
+repetitions = 1
+x = x
+
+WHILE (repetitions < 1) {
+    WHILE (counter > repetitions) {
+        counter--
+        PRINT x same line
+    } repetitions++ 
+    new line
+    counter = 0
+    }
