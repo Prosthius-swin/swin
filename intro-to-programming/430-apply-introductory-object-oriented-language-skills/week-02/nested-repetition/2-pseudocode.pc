@@ -20,7 +20,7 @@ FOR (4) {
 }
 
 
-//wWHILE loops
+//WHILE loops
 counter = 0
 x = x
 
