@@ -10,15 +10,22 @@ public class Program
         //for multiples of five, print Buzz (instead of the number)
         //for multiples of both three and five, print FizzBuzz (instead of the number)
 
-        string fizz = "fizz";
-        string buzz = "buzz";
+        string fizz = "Fizz";
+        string buzz = "Buzz";
         string fizzBuzz = "FizzBuzz";
-        int num = 1;
+        int num = 0;
 
         for (int i = 0; i < 100; i++) {
-            Console.WriteLine(num++);
+            num++;
+            if ((num % 3 == 0) && (num % 5 == 0)) {
+                Console.WriteLine(fizzBuzz);
+            } else if (num % 3 == 0) {
+                Console.WriteLine(fizz);
+            } else if (num % 5 == 0) {
+                Console.WriteLine(buzz);
+            } else if ((num % 3 != 0) && num % 5 != 0) {
+                Console.WriteLine(num); 
+            }
         }
-
-
 	}
 }
