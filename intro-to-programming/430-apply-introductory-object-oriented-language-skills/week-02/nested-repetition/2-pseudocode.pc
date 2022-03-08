@@ -1,0 +1,46 @@
+//Create a C# program that creates the below output and copy and paste your code as the answer.
+/*
+xxxx
+xxx
+xx
+x
+*/
+
+//FOR loops
+x = x
+
+FOR (4) {
+    PRINT(x)
+} FOR (3) {
+    PRINT(x)
+} FOR (2) {
+    PRINT(x)
+} FOR (1) {
+    PRINT(x)
+}
+
+
+//wWHILE loops
+counter = 0
+x = x
+
+WHILE (counter < 4) {
+    counter++
+    PRINT x same line
+} new line
+counter = 0
+WHILE (counter < 3) {
+    counter++
+    PRINT x same line
+} new line
+counter = 0
+WHILE (counter < 2) {
+    counter++
+    PRINT x same line
+} new line
+counter = 0
+WHILE (counter < 1) {
+    counter++
+    PRINT x same line
+} new line
+counter = 0
