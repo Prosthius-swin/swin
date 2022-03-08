@@ -7,7 +7,7 @@ x
 */
 
 int counter = 0;
-int repetitions = 5;
+int repetitions = 4;
 char x = 'x';
 
 while (repetitions > 0) {
