@@ -28,14 +28,15 @@ public class Program
             while(counter < userSelectInt) {
             counter++;
             num++;
+            string prepend = num + " - ";
             if ((num % 3 == 0) && (num % 5 == 0)) {
-                Console.WriteLine(fizzBuzz);
+                Console.WriteLine(prepend + fizzBuzz);
             } else if (num % 3 == 0) {
-                Console.WriteLine(fizz);
+                Console.WriteLine(prepend + fizz);
             } else if (num % 5 == 0) {
-                Console.WriteLine(buzz);
+                Console.WriteLine(prepend + buzz);
             } else if ((num % 3 != 0) && num % 5 != 0) {
-                Console.WriteLine(num);  
+                Console.WriteLine(prepend + num);  
             }
         }
 	}
