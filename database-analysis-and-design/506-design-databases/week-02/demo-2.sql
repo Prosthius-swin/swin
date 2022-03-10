@@ -40,6 +40,8 @@ create table CERTIFICATE (
 );
 
 insert into CERTIFICATE (CertificateNo, IssueDate, Registration) values
-(987654321, 23/12/2022, 'ABC123')
+(987654321, '2022-02-22', 'ABC123');
 
+select * from CUSTOMER;
 select * from VEHICLE;
+select * from CERTIFICATE;
