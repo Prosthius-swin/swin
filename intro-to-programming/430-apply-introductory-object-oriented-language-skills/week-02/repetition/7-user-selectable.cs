@@ -14,8 +14,19 @@ public class Program
         string buzz = "Buzz";
         string fizzBuzz = "FizzBuzz";
         int num = 0;
+        int counter = 0;
+        string userSelect;
+        int userSelectInt;
 
-        for (int i = 0; i < 100; i++) {
+        Console.WriteLine("Please enter number to count to.");
+        userSelect = Console.ReadLine();
+        while(!(Int32.TryParse(userSelect, out int value))) {
+            Console.WriteLine("Please enter number to count to.");
+            userSelect = Console.ReadLine();
+            } userSelectInt = Int16.Parse(userSelect);
+            
+            while(counter < userSelectInt) {
+            counter++;
             num++;
             if ((num % 3 == 0) && (num % 5 == 0)) {
                 Console.WriteLine(fizzBuzz);
@@ -24,7 +35,7 @@ public class Program
             } else if (num % 5 == 0) {
                 Console.WriteLine(buzz);
             } else if ((num % 3 != 0) && num % 5 != 0) {
-                Console.WriteLine(num); 
+                Console.WriteLine(num);  
             }
         }
 	}
