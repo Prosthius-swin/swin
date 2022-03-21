@@ -1,0 +1,32 @@
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.exe
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.deps.json
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.runtimeconfig.json
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.runtimeconfig.dev.json
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.dll
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/ref/practice-challenge-1.dll
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.pdb
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.csproj.AssemblyReference.cache
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.GeneratedMSBuildEditorConfig.editorconfig
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.AssemblyInfoInputs.cache
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.AssemblyInfo.cs
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.csproj.CoreCompileInputs.cache
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.dll
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/ref/practice-challenge-1.dll
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.pdb
+C:/Users/103919468/OneDrive - Swinburne University/Repos/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.genruntimeconfig.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.csproj.AssemblyReference.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.AssemblyInfoInputs.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.AssemblyInfo.cs
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.csproj.CoreCompileInputs.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.pdb
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.deps.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.runtimeconfig.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.runtimeconfig.dev.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/practice-challenge-1.pdb
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/practice-challenge-1.genruntimeconfig.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/obj/Debug/net5.0/ref/practice-challenge-1.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/week-03/practice-challenge-1/bin/Debug/net5.0/ref/practice-challenge-1.dll
