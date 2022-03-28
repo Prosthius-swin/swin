@@ -1,6 +1,6 @@
 CREATE DATABASE week4;
 
-use week4;
+USE week4;
 
 DROP TABLE IF EXISTS OrderLine;
 DROP TABLE IF EXISTS [Order];
@@ -85,12 +85,13 @@ CREATE LOGIN Admin9468 WITH PASSWORD = 'Password1!'
 CREATE LOGIN Api9468 WITH PASSWORD = 'Password1!'
 CREATE LOGIN Dev9468 WITH PASSWORD = 'Password1!'
 CREATE LOGIN Backup9468 WITH PASSWORD = 'Password1!'
+GO
 
 EXEC sp_addsrvrolemember 'Admin9468', 'sysadmin'
 GO
 
-EXEC sp_addsrvrolemember 'Api9468', 'db_datawriter'
-EXEC sp_addsrvrolemember 'Api9468', 'db_datareader'
+EXEC sp_addrolemember 'Api9468', 'db_datawriter'
+EXEC sp_addrolemember 'Api9468', 'db_datareader'
 GO
 
 EXEC sp_addsrvrolemember 'Dev9468', 'db_ddladmin'
