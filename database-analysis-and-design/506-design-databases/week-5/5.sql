@@ -1,3 +1,8 @@
+CREATE DATABASE week_5_9468;
+GO
+USE week_5_9468
+GO
+
 CREATE TABLE Building (
     BuildingCode NVARCHAR(4),
     Description NVARCHAR(50) CONSTRAINT NN_Description NOT NULL,
@@ -45,7 +50,7 @@ CREATE TABLE Employee (
 );
 GO
 
-ALTER VIEW EmployeesByDept 
+CREATE VIEW EmployeesByDept 
 AS
 SELECT E.Surname, E.FirstName, D.DeptName
 FROM Employee E
