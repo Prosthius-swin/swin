@@ -1,0 +1,16 @@
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.csproj.AssemblyReference.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.GeneratedMSBuildEditorConfig.editorconfig
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.AssemblyInfoInputs.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.AssemblyInfo.cs
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.csproj.CoreCompileInputs.cache
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4.deps.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4.runtimeconfig.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4.runtimeconfig.dev.json
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/ref/4.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/bin/Debug/net5.0/4.pdb
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/ref/4.dll
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.pdb
+/home/callum/repos/swin/intro-to-programming/430-apply-introductory-object-oriented-language-skills/arrays-and-lists-task/4/obj/Debug/net5.0/4.genruntimeconfig.cache
